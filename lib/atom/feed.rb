@@ -42,6 +42,8 @@ module Atom
 
     # conditional get information from the last fetch
     attr_reader :etag, :last_modified
+    
+    attr_accessor :http
 
     atom_string :id
     atom_element :title, Atom::Title

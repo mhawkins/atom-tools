@@ -63,7 +63,7 @@ module Atom
       @accepts = array
     end
 
-    attr_reader :http
+    attr_accessor :http
 
     attr_reader :feed
 
